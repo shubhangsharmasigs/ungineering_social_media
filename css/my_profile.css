@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+  }
+div.a{
+    float: left;
+    border: solid 0px black;
+    height: 100px;
+    width: 100%;
+    
+    }
+
+div.a1{
+    float: left;
+    border: solid 0px black;
+    height: 100%;
+    width: 30%;
+    
+    }
+div.a1a{
+    float: left;
+    border: solid 0px black;
+    height: 100%;
+    width: 30%;
+    padding: 0% 0% 0% 17%;
+    }
+div.a1b{
+    float: left;
+    border: solid 0px black;
+    height: 60%;
+    width: 6%;
+    color: red;
+    }
+div.a1c{
+    float: left;
+    border: solid 0px black;
+    height: 60%;
+    width: 64%;
+   
+    }
+div.a1d{
+    float: left;
+    border: solid 0px black;
+    position: relative;
+    top: -25px;
+    height: 40%;
+    width: 70%;
+    margin: 0% 0% 10% 0%;
+    }
+    
+div.a2{
+    float: left;
+    border: solid 0px black;
+    height: 100%;
+    width: 25%;
+    
+    }
+div.a3{
+    float: left;
+    border: solid 0px black;
+    height: 100%;
+    width: 25%;
+    padding: 0.5% 2% 4% 12%;
+    margin: 0px 10px 0px 30px;
+   }
+div.a4{
+    float: left;
+    border: solid 1px red;
+    height: 20%;
+    width: 10%;
+    color: red;
+    padding: 0% 1% 4% 2%;
+    margin: 10px 10px 10px 10px;
+   }
+div.b{
+    float: left;
+    border-top: solid 1px black;
+    height: 800px;
+    width: 100%;
+    }
+div.b1{
+    float: left;
+    border: solid 0px black;
+    height: 100%;
+    width: 20%;
+    }
+div.b1a{
+    float: left;
+    border: solid 0px black;
+    height: 6%;
+    width: 100%;
+    padding: 0% 0% 0% 45%;
+    margin: 10% 0% 0% 0%; 
+    }
+div.b1b{
+    float: left;
+    border: solid 0px black;
+    height: 6%;
+    width: 100%;
+    padding: 0% 0% 10% 45%;
+    color: red; 
+    }
+div.b2{
+    float: left;
+    border: solid 0px black;
+    height: 100%;
+    width: 60%;
+    background-color: #f7f7f7;
+    }
+div.b2a{
+    float: left;
+    border: solid 4px #f7f7f7;
+    width: 100%;
+    height: 280px;
+    
+    background-color: white;
+    }
+div.b2aa{
+    float: left;
+    border: solid 0px black;
+    width: 90%;
+    font-size: 30px;
+    margin: 0% 5% 0% 5%;
+    }
+div.b2ab{
+    float: right;
+    border: solid 0px black;
+    width: 100%
+    padding: 0% 10% 0% 50%;
+    font-size: 25px;
+    margin: 0% 5% 0% 5%;
+    }
+div.b2b{
+    float: left;
+    border: solid 4px #f7f7f7;
+    height: 280px;
+    width: 100%;
+    margin: 2.5% 0% 0% 0%;
+    background-color: white;
+    }
+div.b2ba{
+    float: left;
+    border: solid 0px black;
+    width: 90%;
+    font-size: 30px;
+    margin: 0% 5% 0% 5%;
+    }
+div.b2bb{
+    float: right;
+    border: solid 0px black;
+    width: 90%
+    padding: 0% 10% 0% 50%;
+    font-size: 25px;
+    margin: 0% 5% 0% 5%;
+    }
+div.b3{
+    float: left;
+    border: solid 0px black;
+    height: 100%;
+    width: 20%;
+    }
+    
+
+    
