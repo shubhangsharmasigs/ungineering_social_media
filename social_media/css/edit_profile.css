@@ -21,10 +21,7 @@
     border: solid 2px green;
     float:left;
 } 
-#logo{
-    width:80%;
-    height:75%;
-}
+
 #un{
     color:#F04C4E;
 }
@@ -33,6 +30,29 @@
     font-family:"Open Sans",sans-serif;
     font-weight:bold;
 }
+#gi{
+    color:#373737;
+}
+#quote{
+    font-family:"Open Sans",sans-serif;
+    font-size:10px;
+}
+#logo-youtube{
+    max-width:100%;
+    max-height:100%;
+}
+#logo-facebook{
+    max-width:70%;
+    max-height:76%;
+}
+.bit{
+    color:#F04C4E;
+}
+.quote1{
+    color:#373737;
+}
+
+
 
 
 .row1>.col{
@@ -43,7 +63,7 @@
     }
     .row1>.col2{
         width:5%;
-        padding:70px 0px 0px 0px;
+        padding:80px 0px 0px 10px;
     }
     .row1>.col3{
         width:18%;
@@ -71,6 +91,7 @@
     .col3>.row33{
         width:100%;
         height:7%;
+        padding:0px 0px 0px 7px;
     }
     .col3>.row34{
         width:100%;
@@ -216,11 +237,14 @@
     }
     .col2>.row221{
         width:100%;
-        height:30%;
+        height:27%;
     }    
     .col2>.row222{
         width:100%;
-        height:10%;
+        height:13%;
+        font-family:"Open Sans",sans-serif;
+        font-size:16px;
+        color: #f7f7f7;
     }
     .col2>.row223{
         width:100%;
@@ -236,17 +260,36 @@
     }
     .col4>.row42{
         width:100%;
+        font-family:"Open Sans",sans-serif;
+        font-size:16px;
+        color: #f7f7f7;
         height:15%;
     }
     .col4>.row43{
         width:100%;
         height:20%;
+        font-family:"Open Sans",sans-serif;
+        font-size:25px;
+        color: #f7f7f7;
     }
     .col4>.row44{
         width:100%;
         height:35%;
     }
-
+    .row223>.inside-col{
+        height:100%;
+        width:30%;
+    }    
+    .logo1{
+        padding:0px 0px 4px 4px;
+    }
+    .logo2{
+        padding:7px 0px 0px 3px;
+    }
+    
+.row3{
+    background-color:#373737;
+}
 
 
 
