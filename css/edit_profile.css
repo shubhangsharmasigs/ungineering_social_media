@@ -78,7 +78,7 @@
         width:13%;
     }
     .row1>.col7{
-        width:5%;
+        width:6%;
     }
     .col3>.row31{
         width:100%;
@@ -155,67 +155,78 @@
     }
     .col3>.col31{
         height:100%;
-        width:15%;
+        width:23%;
     }
 
     .col3>.col32{
         height:100%;
-        width:70%;
+        width:54%;
+    }
+    .col32>.edit_profile{
+        height:100%;
+        width:100%;
     }
     .col3>.col33{
         height:100%;
-        width:15%;
+        width:23%;
     }
-    .col32>.row31{
+    .edit_profile>.row31{
         height:7%;
         width:100%;
     }
-    .col32>.row32{
+    .edit_profile>.row32{
         height:4%;
         width:100%;
     }
-    .col32>.row33{
+    .edit_profile>.row33{
         height:8%;
         width:100%;
     }
-    .col32>.row34{
+    .edit_profile>.row34{
         height:8%;
         width:100%;
     }
-    .col32>.row35{
+    .edit_profile>.row35{
         height:8%;
         width:100%;
     }
-    .col32>.row36{
+    .edit_profile>.row36{
         height:8%;
         width:100%;
     }
-    .col32>.row37{
+    .edit_profile>.row37{
         height:8%;
         width:100%;
     }
-    .col32>.row38{
+    .edit_profile>.row38{
         height:8%;
         width:100%;
     }
-    .col32>.row39{
+    .edit_profile>.row39{
         height:8%;
         width:100%;
     }
-    .col32>.row310{
+    .edit_profile>.row310{
         height:8%;
         width:100%;
     }
-    .col32>.row311{
+    .edit_profile>.row311{
         height:8%;
         width:100%;
     }
-    .col32>.row312{
+    .edit_profile>.row312{
         height:17%;
         width:100%;
     }
-    
-
+    .edit_profile>.inside-row{
+        font-size:30px;
+        font-family:"Open Sans",sans-serif;
+        font-weight:bold;
+        color:#373737;
+    }
+    .edit{
+        border:solid 1px #F04C4E;
+    }
 
 .row3>.col{
     height:220px;
