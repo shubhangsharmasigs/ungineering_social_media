@@ -59,7 +59,7 @@
     height:255px;
 }
     .row1>.col1{
-        width:10%;
+        width:8%;
     }
     .row1>.col2{
         width:5%;
@@ -78,7 +78,7 @@
         width:13%;
     }
     .row1>.col7{
-        width:6%;
+        width:8%;
     }
     .col3>.row31{
         width:100%;
@@ -91,7 +91,7 @@
     .col3>.row33{
         width:100%;
         height:7%;
-        padding:0px 0px 0px 7px;
+        padding:5px 0px 0px 7px;
     }
     .col3>.row34{
         width:100%;
@@ -123,7 +123,7 @@
     }
 
 .row2>.col{
-    height:1050px;
+    height:975px;
 }
     .row2>.col1{
         width:12%;
@@ -171,51 +171,48 @@
         width:23%;
     }
     .edit_profile>.row31{
-        height:7%;
+        height:11%;
         width:100%;
+        padding:67px 0px 0px 0px;
     }
     .edit_profile>.row32{
-        height:4%;
+        height:7.5%;
         width:100%;
     }
     .edit_profile>.row33{
-        height:8%;
+        height:7.5%;
         width:100%;
     }
     .edit_profile>.row34{
-        height:8%;
+        height:7.5%;
         width:100%;
     }
     .edit_profile>.row35{
-        height:8%;
+        height:7.5%;
         width:100%;
     }
     .edit_profile>.row36{
-        height:8%;
+        height:7.5%;
         width:100%;
     }
     .edit_profile>.row37{
-        height:8%;
+        height:7.5%;
         width:100%;
     }
     .edit_profile>.row38{
-        height:8%;
+        height:7.5%;
         width:100%;
     }
     .edit_profile>.row39{
-        height:8%;
+        height:7.5%;
         width:100%;
     }
     .edit_profile>.row310{
-        height:8%;
+        height:7.5%;
         width:100%;
     }
     .edit_profile>.row311{
-        height:8%;
-        width:100%;
-    }
-    .edit_profile>.row312{
-        height:17%;
+        height:21.5%;
         width:100%;
     }
     .edit_profile>.inside-row{
@@ -225,9 +222,31 @@
         color:#373737;
     }
     .edit{
-        border:solid 1px #F04C4E;
+        border:solid 1.5px #F04C4E;
+        height: 62px;
+        width: 100%;
+        border-radius: 5px;
     }
-
+    .padded{
+        padding:33px 0px 0px 0px;
+    }
+    .update-button{
+        border: solid 1.5px #F04C4E;
+        border-radius:5px;
+        background-color: #f04c4e;
+        color:white;
+        font-weight:bold;
+        height: 50px;
+        width: 195px;
+        font-size: 30px;
+        font-family: "Open Sans",sans-serif;
+    }
+    .row311{
+        padding:14px 0px 0px 0px;
+    }
+    
+    
+    
 .row3>.col{
     height:220px;
 }
