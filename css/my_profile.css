@@ -1,102 +1,109 @@
 * {
     box-sizing: border-box;
-  }
+    
+}
 div.a{
     float: left;
     border: solid 0px black;
-    height: 100px;
-    width: 100%;
-    
-    }
+    height: 140px;
+    width: 80%;
+    margin: 0% 10% 0% 10%;
+}
 
 div.a1{
     float: left;
     border: solid 0px black;
     height: 100%;
-    width: 30%;
-    
-    }
+    width: 50%;
+    padding: 0% 0% 0% 0%;
+}
 div.a1a{
     float: left;
     border: solid 0px black;
     height: 100%;
-    width: 30%;
-    padding: 0% 0% 0% 17%;
-    }
+    width: 12%;
+    
+}
 div.a1b{
     float: left;
     border: solid 0px black;
-    height: 60%;
-    width: 6%;
-    color: red;
-    }
+    height: 50%;
+    width: 88%;
+}
+div.a1b1{
+    float: left;
+    border: solid 0px black;
+    height:100%;
+    font-size: 18px;
+    width: 6%; 
+    color: red;   
+}
+div.a1b2{
+    float: left;
+    border: solid 0px black;
+    height:100%;
+    width: 94%;
+    font-size: 18px;
+}
 div.a1c{
     float: left;
     border: solid 0px black;
-    height: 60%;
-    width: 64%;
-    
-    }
-div.a1d{
-    float: left;
-    border: solid 0px black;
-    position: relative;
-    top: -25px;
-    height: 40%;
-    width: 70%;
-    margin: 0% 0% 10% 0%;
-    }
-    
+    height: 50%;
+    width: 88%;
+    font-size: 12px;
+}
+
 div.a2{
     float: left;
     border: solid 0px black;
-    height: 100%;
-    width: 25%;
-    
-    }
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 2% 0% 0% 8%;
+    margin: 0% 0% 0% 20%;
+}
+
 div.a3{
-    float: left;
-    border: solid 0px black;
-    height: 100%;
-    width: 25%;
-    padding: 0.5% 2% 4% 14%;
-    margin: 0px 10px 0px 30px;
-   }
-div.a4{
-    float: left;
-    border: solid 1px #d54d4f;
-    height: 20%;
+    float: right;
+    border: solid 1.5px rgb(200,8,11) ;
     width: 10%;
-    color: #d54d4f;
-    padding: 0% 1% 4% 2%;
-    margin: 10px 10px 15px 10px;
-   }
+    font-family: 'Open Sans', sans-serif;
+    margin: 3% 0% 1% 0%;
+    }
+input.a3{
+    height: 100%;
+    width:100%;
+    font-size: 20px;
+    color: rgb(200,8,11);
+    background-color: white ;
+}
 div.b{
     float: left;
-    border-top: solid 1px black;
-    height: 750px;
-    width: 100%;
-    }
+    border-top: solid 0px black;
+    height: 700px;
+    width: 80%;
+    margin: 0% 10% 0% 10%;
+}
 div.b1{
     float: left;
     border: solid 0px black;
     height: 100%;
     width: 20%;
-    }
+}
 div.b1a{
     float: left;
     border: solid 0px black;
-    height: 6%;
+    height: 10%;
     width: 100%;
-    padding: 0% 0% 0% 45%;
-    margin: 10% 0% 0% 0%; 
-    }
+    font-family: 'Open Sans', sans-serif;
+    padding: 20% 0% 0% 10%; 
+}
 div.b1b{
     float: left;
     border: solid 0px black;
-    height: 6%;
+    height: 10%;
     width: 100%;
-    padding: 0% 0% 10% 45%;
+    font-family: 'Open Sans', sans-serif;
+    padding: 20% 0% 0% 10%;	
     color: #d54d4f; 
     }
 div.b2{
@@ -105,120 +112,113 @@ div.b2{
     height: 100%;
     width: 60%;
     background-color: #f8f8f8;
-    }
+}
 div.b2a{
     float: left;
     border: solid 4px #f8f8f8;
     width: 100%;
-    height: 280px;
-    
+    height: 250px;
     background-color: white;
-    }
+}
 div.b2aa{
     float: left;
     border: solid 0px black;
     width: 90%;
-    font-size: 30px;
-    margin: 0% 5% 0% 5%;
-    }
+    font-size:22px;
+    margin: 4% 5% 0% 5%;
+}
 div.b2ab{
     float: right;
     border: solid 0px black;
     width: 100%
-    padding: 0% 10% 0% 50%;
-    font-size: 25px;
+    font-size:22px;
+    padding: 0% 0% 0% 0%;
     margin: 0% 5% 0% 5%;
-    }
+}
 div.b2b{
     float: left;
     border: solid 4px #f8f8f8;
-    height: 280px;
+    height: 240px;
     width: 100%;
     margin: 2.5% 0% 0% 0%;
     background-color: white;
-    }
+}
 div.b2ba{
     float: left;
     border: solid 0px black;
     width: 90%;
-    font-size: 30px;
+    font-size: 22px;
     margin: 0% 5% 0% 5%;
-    }
+}
 div.b2bb{
     float: right;
     border: solid 0px black;
     width: 90%
-    padding: 0% 10% 0% 50%;
-    font-size: 25px;
+    font-size:22px;
     margin: 0% 5% 0% 5%;
-    }
-div.b3{
-    float: left;
-    border: solid 0px black;
-    height: 100%;
-    width: 20%;
-    }
+}
+
 div.c{
     float: left;
     border: solid 0px black;
     height: 200px;
     width: 100%;
     background-color: #373737;
-    }
+}
 div.c1{
     float: left;
     border: solid 0px black;
     height: 100%;
     width: 50%;
-    }
+}
 div.c1a{
     float: left;
     border: solid 0px black;
-    font-size: 20;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
     height: 50%;
     width: 100%;
-    padding: 5% 10% 0% 45%;
+    padding: 5% 10% 0% 22%;
     color: white;
-    }
+}
      
 div.c1b{
     float: left;
     height: 50%;
     border: solid 0px black;
-    width: 50%;
-    padding: 0.5% 0% 0% 44%;
-    }    
+    width: 28%;
+    padding: 0% 0% 0% 22%;
+}    
 div.c1c{
     float: left;
     height: 50%;
     border: solid 0px black;
-    width: 50%;
-    padding: 0.5% 0% 0% 0.5%;
-    }    
+    width: 72%;
+}    
 div.c2{
     float: left;
     border: solid 0px black;
     height: 100%;
     width: 50%;
-    }
+}
 div.c2a{
     float: left;
     border: solid 0px black;
     font-size: 20;
     height: 50%;
     width: 100%;
-    padding: 5% 10% 0% 10%;
+    padding: 7% 10% 0% 50%;
     color: white;
-    }
+}
 div.c2b{
     float: left;
     border: solid 0px black;
-    font-size: 25;    
+    font-size: 20px;    
     height: 50%;
     width: 100%;
-    padding: 0% 0% 10% 20%;
+    padding: 0% 0% 0% 53%;
     color: white;
-    }
+}
     
 
     
