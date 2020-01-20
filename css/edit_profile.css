@@ -2,7 +2,7 @@
     margin:0px 0px 0px 0px;
 }
 .row{
-    border:solid 3px red;
+    border:solid 0px red;
 }
 .row:after {
     content: "";
@@ -10,15 +10,15 @@
     clear: both;
 }
 .col{
-    border: solid 2px black;
+    border: solid 0px black;
     float:left;
 } 
 .inside-row{
-    border: solid 2px blue;
+    border: solid 0px blue;
     float:left;
 } 
 .inside-col{
-    border: solid 2px green;
+    border: solid 0px green;
     float:left;
 } 
 
@@ -253,6 +253,8 @@
         height: 62px;
         width: 100%;
         border-radius: 5px;
+        font-size:33px;
+        padding-left:10px;
     }
     .padded{
         padding:33px 0px 0px 0px;
