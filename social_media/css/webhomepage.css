@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+div{
+    background-color: rgb(250,250,250); 
+}
+.header{
+    background-color: rgb(255,255,255);
+    border: solid 1px white;
+    width: 100%;
+    height: 280px;
+}
+.body{
+    background-color: rgb(255,255,255);
+    border: solid 2px rgb(200,200,200);
+    width: 60%;
+    margin: auto;
+    margin-bottom: 15px;
+}
+.footer{
+    background-color: rgb(55,55,55);
+    border: solid 1px black;
+    width: 100%;
+    height: 25%;
+    margin-top: 65px;
+}
+.text1{
+    background-color: rgb(255,255,255);
+    color: rgb(55,55,55);
+    padding: 10px 0px 10px 20px;
+    display: block;
+    font-size: 23px;
+    padding-top: 20px;
+}
+.text2{
+    background-color: rgb(255,255,255);
+    color: rgb(55,55,55);
+    padding: 10px 10px 10px 20px;
+    display: block;
+    font-size: 23px;
+    padding-top: 20px;
+}
+.text3{
+    background-color: rgb(255,255,255);
+    display: block;
+    color: rgb(55,55,55);
+    padding: 10px 0px 10px 850px;
+    font-size: 23px;
+    padding-top: 30px; 
+}
+.header1{
+    display: inline-block;
+    background-color: rgb(255,255,255);
+    padding: 100px 0px 0px 330px;
+}
+.header2{
+    display: inline-block;
+    background-color: rgb(255,255,255);
+    padding: 80px 40px 30px 800px;
+} 
+div.heading{
+    background-color: rgb(255,255,255);
+    display: inline-block;
+}
+div.heading1{
+    background-color: rgb(255,255,255);
+    font-size: 45px;
+}     
+div.word1{
+    display: inline-block;
+    color: rgb(240,76,76);
+    border: solid 1px rgb(240,76,76);
+    font-size: 20px;
+    padding:10px 40px 10px 40px;
+}
+div.word2{
+    display: inline-block;
+    background-color: rgb(240,76,76);
+    padding: 0px 35px 0px 35px;
+    color: white;
+}
+.border3{
+    width: 30%;
+    display: inline-block;
+    margin: 100px 0px 0px 320px;
+}
+.border4{
+    width: 30%;
+    display: inline-block;
+    margin: 100px 0px 0px 450px;
+}
+div.word3{
+    display: block;
+    background-color: rgb(55,55,55);
+    color: rgb(201,201,201);
+    font-size: 20px;
+}
+div.word4{
+    display: block;
+    background-color: rgb(55,55,55);
+    color: rgb(255,255,255);
+    font-size: 20px;
+}
+div.word5{
+    display: block;
+    background-color: rgb(55,55,55);
+    color: rgb(201,201,201);
+    font-size: 20px;
+}
+div.word6{
+    display: block;
+    background-color: rgb(55,55,55);
+    color: rgb(201,201,201);
+    font-size: 22px;
+    padding-left: 55px;
+} 
+img.facebook{
+    display: inline-block;
+    height: 30px;
+    margin: 0px 0px 0px 15px;
+}
+img.youtube{
+    height: 35px;
+    display: inline-block;
+}
+div.word4{
+    height: 30px;
+    background-color: rgb(55,55,55);
+}
+div.icon{
+    display: inline-block;
+    background-color: rgb(255,255,255);
+}
+img.icon{
+    height: 70px;
+}
+  
