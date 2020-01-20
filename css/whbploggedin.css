@@ -83,6 +83,7 @@ div.word2{
     width: 150px;
     height: 40px;
     text-align: center;
+    padding: 1px 0px 55px 0px;
 }
 div.status1{
     font-size: 25px;
