@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+} 
+.group1{
+    border: solid 1px black;
+    width: 65%;
+    height: 27%;
+}
+.group2{
+    border: solid 1px black;
+    height: 27%;
+    width: 65%;    
+}
+.group3{
+    border: solid 1px black;
+    height: 27%;
+    width: 65%;
+}
+.group4{
+    border: solid 1px black;
+    height: 27%;
+    width:65%;
+}
+.group5{
+    border: solid 1px black;
+    height: 27%;
+    width: 65%;
+}
+.group6{
+    border: solid 1px black;
+    height: 27%;
+    width: 65%;
+}
+.group7{
+    border: solid 1px black;
+    height: 27%;
+    width: 65%;
+}
+.group8{
+    border: solid 1px black;
+    width: 100%;
+    height: 22%;
+}     
+       
+
