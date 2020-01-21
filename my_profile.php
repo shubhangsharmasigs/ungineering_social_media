@@ -1,7 +1,24 @@
-<!DOCTYPE html>
+<?php
+    $hostname = "127.0.0.1";
+    $username = "root";
+    $db_password = "123456";
+    $database = "social_media";
+
+    $conn = mysqli_connect($hostname, $username, $db_password, $database);
+    if (!$conn) {
+        die("Connection failed: " . mysqli_connect_error());
+    }
+
+    $sql = "SELECT * FROM statuses WHERE user_id=1 ORDER BY date DESC";
+
+    $result = mysqli_query($conn, $sql);
+    if (!$result) {
+    die("Error: " . $sql . "<br>" . mysqli_error($conn));
+    }
+?>
 <html>
     <head>
-         <link rel="stylesheet" href="css/my_profile.css">
+         <link rel="stylesheet" href="/social_media/css/my_profile.css">
          <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
         <title>My profile</title>
     </head>
@@ -10,7 +27,7 @@
             <div  class="a1">
                 <div class="a1a">
                     <a href="http://www.ungineering.com/">    
-                    <img src="img/logo.svg" height="80" width="100" alt=" "/>
+                    <img src="img/logo.svg" height="90" width="100" alt=" "/>
                     </a>
                 </div>
                 <div class="a1b">    
@@ -45,29 +62,30 @@
                 
             </div>
             <div  class="b2">
-                <div class="b2a">
-                    <div class="b2aa">
+                    <?php
+                        while ($row=mysqli_fetch_array($result)) {
+                    ?>
+                    <div class="b2a">
+                        <div class="b2aa"> 
+                            <p>
+                                <?php
+                                    echo $row['status'];
+                                ?>
+                            </p>
+                        </div>
+                        <div class="b2ab">
+                            <p><i>
+                                <?php
+                                   echo $row['date'] . " | " . $row['time'];
+                                ?>
+                            </i></p>
+                        </div>
+                    </div>
                     
-                        <p>Our content is specially designed in a way that it doesn't require the students to have much prior knowledge. We cover everything from scratch in a very simple to understand manner. Knowing just the basics of
-                        programming in any language is sufficient.    
-                         </p>
-                    </div>
-                    <div class="b2ab">
-                        <p><i>Time:24:40 Hrs IST | 26 Dec </i></p>
-                    </div>
-                  </div>  
-                 <div class="b2b">
-                    <div class="b2ba">
-                        <p>Our content is specially designed in a way that it doesn't require the students to have much prior knowledge. We cover everything from scratch in a very simple to understand manner. Knowing just the basics of
-                        programming in any language is sufficient.</p>
-                    </div>
-                    <div class="b2bb">
-                        <p><i>Time:24:40 Hrs IST | 26 Dec </i></p>
-                    </div>
-                </div> 
+                        <?php
+                           }
+                        ?>
             </div>
-         
-         
         </div>
         <div class="c">
             <div  class="c1">
@@ -94,6 +112,9 @@
         </div>
     </body>
 </html>
+<?php
+    mysqli_close($conn);
+?>
                     
         
         
