@@ -1,6 +1,7 @@
 *{
 box-sizing:border-box;
 font-family: 'Open Sans', sans-serif;
+
 }
 .ha{
     height:100px;
@@ -37,6 +38,7 @@ font-family: 'Open Sans', sans-serif;
     width:50%;
     text-align: center;
     color:#F04C4D;
+    margin:17px 0px 0px 0px;
 }
 
 .aa2{
@@ -45,6 +47,8 @@ font-family: 'Open Sans', sans-serif;
     width:50%;
     text-align:center;
     padding:0px 0px 0px 80px;
+    margin:17px 0px 0px 0px;
+    color: #F04C4D;
 }
 
 #mainbox{
@@ -72,7 +76,7 @@ font-family: 'Open Sans', sans-serif;
 
 }
 
-.c1{
+.c11{
     height:32px;
     width:100%;
     font-weight:bold;
@@ -90,8 +94,11 @@ font-family: 'Open Sans', sans-serif;
     font-weight:bold;
 }
 
-.e1{
-    width:100%
+input[type="text"]{
+    height:35px;
+    width:420px;
+    margin:0px 90px;
+    border-color:#F04C4D;
 }
 
 
@@ -147,13 +154,20 @@ font-family: 'Open Sans', sans-serif;
 .k1{
     width:420px;
     text-align:center;
-    background-color:#F04C4D;
-    margin:0px 90px;
+    margin:15px 90px;
     color:white;
     height:35px;
     padding:0px 0px 0px 0px;
+    
 }
 
+
+.submit{
+    background-color:#F04C4D;
+    width:100%;
+    height:35px;
+    margin:15px 0px;
+}
 
 .l1{
     width:100%
@@ -161,11 +175,6 @@ font-family: 'Open Sans', sans-serif;
     color:#F04C4D;
     padding:0px 0px 0px 90px;
     margin:10px 0px 0px 0px;
-}
-
-.m1{
-    height:200px;
-    width:100%;
 }
 
 
@@ -208,127 +217,65 @@ input[type="text"]{
 
 
 
-
-.row{
-    border:solid 0px red;
-}
-.row:after {
-    content: "";
-    display: block;
-    clear: both;
-}
-.col{
+div.m1{
+    float: left;
     border: solid 0px black;
-    float:left;
+    height: 200px;
+    width: 100%;
+    background-color: #373737;
 }
-.inside-row{
-    border: solid 0px blue;
-    float:left;
+div.c1{
+    float: left;
+    border: solid 0px black;
+    height: 100%;
+    width: 50%;
 }
+div.c1a{
+    float: left;
+    border: solid 0px black;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    height: 50%;
+    width: 100%;
+    padding: 5% 10% 0% 25%;
+    color: white;
+}
+     
+div.c1b{
+    float: left;
+    height: 50%;
+    border: solid 0px black;
+    padding: 0% 0% 0% 25%;
+}    
+div.c1c{
+    float: left;
+    height: 50%;
+    border: solid 0px black;
+    padding-left: 1%;
+}    
+div.c2{
+    float: left;
+    border: solid 0px black;
+    height: 100%;
+    width: 50%;
+}
+div.c2a{
+    float: left;
+    border: solid 0px black;
+    font-size: 20px;
+    height: 50%;
+    width: 100%;
+    padding: 7% 10% 0% 40%;
+    color: white;
+}
+div.c2b{
+    float: left;
+    border: solid 0px black;
+    font-size: 20px;    
+    padding: 0% 0% 0% 51%;
+    color: white;
+}
+    
 
-
-#logo-youtube{
-    max-width:100%;
-    max-height:100%;
-    margin:0px 0px 0px 0px;
-}
-#logo-facebook{
-    max-width:70%;
-    max-height:76%;
-    margin:0px 0px 0px 0px;
-}
-
-.row3>.col{
-    height:220px;
-}
-    .row3>.col1{
-        width:8%;
-    }
-    .row3>.col2{
-        width:14%;
-    }
-    .row3>.col3{
-        width:48%;
-    }
-    .row3>.col4{
-        width:22%;
-    }
-    .row3>.col5{
-        width:8%;
-    }
-    .col2>.row221{
-        width:100%;
-        height:27%;
-    }
-    .col2>.row222{
-        width:100%;
-        height:13%;
-        font-family:"Open Sans",sans-serif;
-        font-size:16px;
-        color: #F7F7F7;
-    }
-    .col2>.row223{
-        width:100%;
-        height:30%;
-    }
-    .col2>.row224{
-        width:100%;
-        height:30%;
-    }
-    .col4>.row41{
-        width:100%;
-        height:30%;
-    }
-    .col4>.row42{
-        width:100%;
-        font-family:"Open Sans",sans-serif;
-        font-size:16px;
-        color: #F7F7F7;
-        height:15%;
-    }
-    .col4>.row43{
-        width:100%;
-        height:20%;
-        font-family:"Open Sans",sans-serif;
-        font-size:25px;
-        color: #F7F7F7;
-    }
-    .col4>.row44{
-        width:100%;
-        height:35%;
-    }
-    .row223>.inside-col{
-        height:100%;
-        width:30%;
-    }
-    .logo1{
-        padding:0px 0px 4px 4px;
-    }
-    .logo2{
-        padding:7px 0px 0px 3px;
-    }
-.row3{
-    background-color:#373737;
-}
-.col2>.row23:after {
-    content: ""; /* This is necessary for the pseudo element to work. */
-    display: block; /* This will put the pseudo element on its own line. */
-    width: 50%; /* Change this to whatever width you want. */
-    padding-top:0px; /* This creates some space between the element and the border. */
-    border-bottom:5px solid #373737; /* This creates the border. Replace black with whatever color you want. */
-    border-radius:70px;
-}
-.col5>.row52:after {
-    content: ""; /* This is necessary for the pseudo element to work. */
-    display: block; /* This will put the pseudo element on its own line. */
-    width:30%; /* Change this to whatever width you want. */
-    padding-top:0px; /* This creates some space between the element and the border. */
-    border-bottom:5px solid #373737; /* This creates the border. Replace black with whatever color you want. */
-    border-radius:70px;
-}
-*{
-    box-sizing: border-box;
-}
-
-
+    
 

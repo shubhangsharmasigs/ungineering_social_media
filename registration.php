@@ -23,37 +23,39 @@
                 <div class="c11">
                     <p>Ungineering</p>
                 </div>
-                <div class="d1">
-                    <p>Name</p>
-                </div>
-                <div class="gap"></div>
-                <div class="e1">
-                    <input  type="text" value=" ">
-                </div>
-                <div class="f1">
-                    <p>Email</p>
-                </div>
-                <div class="gap1"></div>
-                <div class="g1">
-                    <input  type="text" value=" ">
-                </div>
-                <div class="h1">
-                    <p>Password</p>
-                </div>
-                <div class="gap2"></div>
-                <div class="h2">
-                    <input style="height:35px;width:420px;margin:0px 90px;border-color:#F26D6E;" type="password" value="">
-                </div>
-                <div class="i1">
-                    <p>Confirm Password</p>
-                </div>
-                <div class="gap3"></div>
-                <div class="j1">
-                    <input style="height:35px;width:420px;margin:0px 90px;border-color:#F26D6E;" type="password " value=" ">
-                </div>
-                <div class="k1">
-                    <a><div><p>Create Account</p></div></a>
-                </div>
+                <form method="post" action="registration_submit.php" >
+                    <div class="d1">
+                        <p>Name</p>
+                    </div>
+                    <div class="gap"></div>
+                    <div class="e1">
+                        <input  type="text" name="name">
+                    </div>
+                    <div class="f1">
+                        <p>Email</p>
+                    </div>
+                    <div class="gap1"></div>
+                    <div class="g1">
+                        <input  type="text" name="email">
+                    </div>
+                    <div class="h1">
+                        <p>Password</p>
+                    </div>
+                    <div class="gap2"></div>
+                    <div class="h2">
+                        <input style="height:35px;width:420px;margin:0px 90px;border-color:#F26D6E;" type="password" name="password">
+                    </div>
+                    <div class="i1">
+                        <p>Confirm Password</p>
+                    </div>
+                    <div class="gap3"></div>
+                    <div class="j1">
+                        <input style="height:35px;width:420px;margin:0px 90px;border-color:#F26D6E;" type="password" name="confirm_password">
+                    </div>
+                    <div class="k1">
+                        <input class="submit" type="submit"  value="Create Account">
+                    </div>
+                </form>
                 <div class="l1">
                     <a href="#">ExistingUser.Login</a>
                 </div>
