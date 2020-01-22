@@ -10,13 +10,12 @@
         <div id="mainouterbox">
             <div class ="a1">
                 <div class ="aa1">
-                    <a href="login.php"><big><u>Existing User</u></big></a>
+                    <a href="#"><big><u>Existing User</u></big></a>
                 </div>
                 <div class ="aa2">
                     <a href="#"><big><u>New user</u></big></a>
                 </div>
             </div>
-<<<<<<< HEAD:registration.html
             <div id="mainbox">
                 <div class="b1">
                     <p>Create New Account at</p>
@@ -88,4 +87,3 @@
         </div>
     </body>
 </html>
-
