@@ -43,7 +43,7 @@
                 </div>
                 <a href=#>
                  <div  class="a22">
-                <p>Logout</p>
+                <p><b>Logout</b></p>
                 </div>
                 </a>
             </div>
@@ -54,7 +54,7 @@
                 <div  class="b1a">
                     <h2>Profile</h2>
                 </div>
-                <a href=edit_profile.html>
+                <a href=edit_profile.php>
                 <div  class="b1b">
                     <u><h2>Edit Profile</h2></u>
                 </div>
