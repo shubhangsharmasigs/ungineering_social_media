@@ -41,7 +41,7 @@
                 <div class="a21">
                     <p><b>My dashboard</b></p>
                 </div>
-                <a href=#>
+                <a href=logout.php>
                  <div  class="a22">
                 <p><b>Logout</b></p>
                 </div>

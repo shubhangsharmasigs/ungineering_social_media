@@ -16,7 +16,6 @@
                     <a href="#"><big><u>New user</u></big></a>
                 </div>
             </div>
-<<<<<<< HEAD:registration.html
             <div id="mainbox">
                 <div class="b1">
                     <p>Create New Account at</p>

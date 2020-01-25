@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
+    
 }
 div.a{
     float: left;
@@ -72,9 +73,9 @@ div.line{
     }
 div.b{
     float: left;
-    height: 578px;
     width: 80%;
     margin: 0% 10% 0% 10%;
+    
 }
 div.b1{
     float: left;
