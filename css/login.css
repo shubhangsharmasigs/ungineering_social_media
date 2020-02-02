@@ -154,7 +154,7 @@ a{
 }
 #tag{
     font-size: 25px;
-    margin: 10px 0px 0px 138px;
+    margin: 10px 0px 0px 100px;
     color: #F04C4D;
     text-decoration: underline;
     font-weight: bold;
@@ -202,3 +202,66 @@ a{
     margin: -3.2% 0px 0px 14%;
 }
 #f3
+
+
+
+
+
+
+
+#head{
+    width: 100%;
+    height: 200px;
+}
+#hzero{
+    height:200px;
+    width: 25%;
+    margin: 0px 0px 0px 725px;
+}
+#h22{
+    height: 100%;
+    width: 10%;
+    float: left;
+    margin: 0px 0px 0px 0px;
+}
+#ung{
+    margin: 70px 0px 0px 50px;
+}
+#h3{
+    height: 100%;
+    width: 90%;
+    float: left;
+    color: #373737;
+    margin: -200px 0px 0px 120px;
+}
+#h3a{
+    color: #373737;
+    font-weight: bold;
+    margin: 100px 0px 0px 0px;
+    font-size: 40px;
+}
+#h3aa{
+    color:#F04C4D;
+    float: left;
+}
+#h3b{
+      font-size: 15px;
+      line-height: 15px
+}
+.h3ba{
+    color: #373737;
+    float: left;
+}
+.h3bb{
+    color:#F04C4D;
+    float: left;
+    margin: 0px 2px 0px 2px;
+}
+
+
+
+
+    
+
+    
+

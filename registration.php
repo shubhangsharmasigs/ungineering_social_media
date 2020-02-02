@@ -4,8 +4,21 @@
         <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div class ="ha">
-            <div class="ha1"><p><span style="color:red;">un</span>gineering</div></br><div class="ha2">A <span style="color:red;">bit</span> of knowledge is good but A <span style="color:red;">byte </span>is better</p></div>
+        <div>
+             <div id="head">
+                <div id="hzero">
+                    <div id="h22">
+                     <p id="ung"><img src="logo.svg" height=100px/></p>
+                    </div>
+                    <div id="h3">
+                         <div id="h3a">
+                            <div><div id="h3aa">un</div>gineering</div>
+                         </div>
+                         <div id="h3b">
+                            <div class="h3ba">A </div><div class="h3bb"> bit </div><div class="h3ba"> of knowledge is good,a </div><div class="h3bb"> byte </div> <div class="h3ba">is better</div>
+                         </div>
+                    </div>
+                </div>
         </div>
         <div id="mainouterbox">
             <div class ="a1">
@@ -23,7 +36,7 @@
                 <div class="c11">
                     <p>Ungineering</p>
                 </div>
-                <form method="post" action="registration_submit.php" >
+                <form id="registration_form" method="post" action="registration_submit.php" >
                     <div class="d1">
                         <p>Name</p>
                     </div>
@@ -57,7 +70,7 @@
                     </div>
                 </form>
                 <div class="l1">
-                    <a href="#">ExistingUser.Login</a>
+                    <a href="login.php">ExistingUser.Login</a>
                 </div>
             </div>
         </div>    
@@ -85,6 +98,9 @@
             </div>
         
         </div>
+        <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+        <script type="text/javascript" src="js/login.js"></script>
+
     </body>
 </html>
 
